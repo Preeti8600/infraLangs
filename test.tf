@@ -11,6 +11,7 @@ provider "aws" {
 resource "aws_instance" "example" {
  ami = "ami-0c9d48b5db60893646e"
  instance_type = "t2.micro"
+ 
  }
 
  output "global_access_key" {
