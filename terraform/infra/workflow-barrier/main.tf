@@ -6,5 +6,7 @@ locals {
 }
 
 output "generic_instances" {
+    
+    
   value = compact(local.generic_instances)
 }
